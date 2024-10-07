@@ -3,7 +3,7 @@ project(imgui)
 
 add_library(${PROJECT_NAME} "")
 #[Give the library the alias CaelumRex::CaelumRex for the target_link_libraries]
-add_library(IMGUI:IMGUI ALIAS ${PROJECT_NAME})
+add_library(IMGUI::IMGUI ALIAS ${PROJECT_NAME})
 
 #[This code is used for the include and src directories of the CaelumRex files]
 #[[
